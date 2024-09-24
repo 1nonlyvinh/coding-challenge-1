@@ -1,16 +1,19 @@
 
-.IdCard {
-        display: flex;
-        background-color: rgb(0, 0, 0);
-      }
-      
-.IdCard {
-        background-color: #ffffff;
-        margin: 10px;
-        padding: 20px;
-        font-size: 30px;
-      }
 
-.IdCard {
-    text-align: center;
+.card {
+  box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.2);
+  margin-top: 13%;
+  margin-left: 30%;
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  height: 300px;
+  width:35%;
+  background-color: lightblue;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  
 }
