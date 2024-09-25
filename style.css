@@ -8,12 +8,37 @@
   border-radius: 5px; /* 5px rounded corners */
   height: 300px;
   width:35%;
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
+  border: solid black;
 
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
+.img {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 60%;
   
+}
+
+.box {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  font-size: 8pt;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+
+}
+
+.more-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  background-color: aqua;
 }
